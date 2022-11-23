@@ -8,7 +8,7 @@
     "email": "mackie@beehive-dev.com",
     "url": "https://www.beehive-dev.com"
   },
-  "license": "UNLICENSED",
+  "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
@@ -25,6 +25,11 @@
     "export": "next export"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/server": "^11.10.0",
+    "@mantine/core": "^5.8.3",
+    "@mantine/hooks": "^5.8.3",
+    "@mantine/next": "^5.8.3",
     "next": "^13.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
